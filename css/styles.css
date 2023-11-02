@@ -1,0 +1,91 @@
+:root{
+    --softblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --darkestblue: hsl(217, 54%, 11%);
+    --verydarkblue: hsl(216, 50%, 16%);
+    --darkblue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html{
+    background-color: var(--darkestblue);
+}
+
+body{
+    width: 350px;
+    background-color: var(--verydarkblue);
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-family: 'Outfit', sans-serif;
+    justify-content: space-evenly;
+}
+
+.equilibriumimg{
+    width: auto;
+    height: 350px;
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.title{
+    color: var(--white);
+    font-size: 14px;
+}
+
+.description{
+    color: var(--softblue);
+    font-size: 20px;
+    margin-top: auto;
+}
+
+.buytime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ethereum{
+    color: var(--cyan);
+    font-weight: bold;
+}
+
+.sparetime{
+    color: var(--softblue);
+}
+
+hr{
+    justify-content: center;
+    width: 100%;
+}
+
+.creator{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 18px;
+}
+
+.creatorimg{
+    background-image: url(../images/image-avatar.png);
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: white 2px solid;
+}
+
+.creatorinf{
+    margin-left: 1rem;
+    color: var(--softblue);
+    text-decoration: none;
+}
+
+.creatorinf a{
+    color: var(--white);
+    text-decoration: none;
+}
